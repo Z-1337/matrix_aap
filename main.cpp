@@ -8,5 +8,5 @@ int main()
   int ** t = createMatrix (M, N);
   read (t, M, N);
   write (t, M, N);
-  destroyMatrix (t, M, N);
+  destroyMatrix (t, M);
 }
