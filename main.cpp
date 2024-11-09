@@ -94,5 +94,7 @@ int main() {
   matrix mtx(3,3);
   mtx.fillmatrix();
   mtx.printmatrix();
+  mtx.getrows();
+  mtx.getcols();
   return 0;
 }
